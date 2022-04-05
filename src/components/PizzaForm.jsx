@@ -33,6 +33,7 @@ function PizzaForm(props){
                         placeholder="Name"
                     />
                 </label>
+                
                 <label>
                     Pizza Size:
                     <select
@@ -49,6 +50,7 @@ function PizzaForm(props){
                         <option value="xl">Extra Large</option>
                     </select>
                 </label>
+
                 <label>
                     Cheese
                     <input
@@ -58,6 +60,7 @@ function PizzaForm(props){
                         type="checkbox"
                         />
                 </label>
+
                 <label>
                     Pepperoni
                     <input
@@ -67,6 +70,7 @@ function PizzaForm(props){
                         type="checkbox"
                     />
                 </label>
+
                 <label>
                     Mushrooms
                     <input
@@ -76,6 +80,7 @@ function PizzaForm(props){
                         type="checkbox"
                     />
                 </label>
+
                 <label>
                 {" "}
                 Bellpeppers
@@ -86,6 +91,7 @@ function PizzaForm(props){
                     type="checkbox"
                 />
                 </label>
+                
                 <label>
                 Olives
                 <input
@@ -95,6 +101,7 @@ function PizzaForm(props){
                     type="checkbox"
                 />
                 </label>
+
                 <label>
                 <input
                     value={values.specials}
